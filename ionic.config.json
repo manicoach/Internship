@@ -1,0 +1,8 @@
+{
+  "name": "Gurukulam",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite",
+  "id": "52e4ea5d"
+}
