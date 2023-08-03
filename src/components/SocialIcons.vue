@@ -6,17 +6,17 @@
         <tr>
           <td class="es-p10r" valign="top" align="center">
             <a target="_blank" @click="openLink('https://m.facebook.com/Gurukulam360DegreeLearningSchool')">
-              <img title="Facebook" src="https://xniugc.stripocdn.email/content/assets/img/social-icons/circle-colored/facebook-circle-colored.png" alt="Fb" width="32">
+              <img title="Facebook" src="@/assets/facebook-icon.png" alt="Fb" class="circular-icon">
             </a>
           </td>
           <td class="es-p10r" valign="top" align="center">
             <a target="_blank" @click="openLink('https://youtube.com/@gurukulamlearningschool')">
-              <img title="YouTube" src="https://xniugc.stripocdn.email/content/assets/img/social-icons/circle-colored/youtube-circle-colored.png" alt="Yt" width="32">
+              <img title="YouTube" src="@/assets/youtube-icon.png" alt="Yt" class="circular-icon">
             </a>
           </td>
           <td class="es-p10r" valign="top" align="center">
             <a target="_blank" @click="openLink('https://web.whatsapp.com/')">
-              <img title="WhatsApp" src="https://xniugc.stripocdn.email/content/assets/img/social-icons/circle-colored/whatsapp-circle-colored.png" alt="WA" width="32">
+              <img title="WhatsApp" src="@/assets/whatsapp-icon.png" alt="WA" class="circular-icon">
             </a>
           </td>
         </tr>
@@ -25,30 +25,35 @@
   </div>
 </template>
 
-/**<style>
-.social-icons-container {
-  display: grid;
-  place-items: center;
-  height: 100vh; /* This will make the container take the full viewport height */
-}
-</style>**/
 
 <style>
 .social-icons-container {
   display: flex;
   align-items: center;
-  margin: 0; /* Remove default margin */
+  margin: 0;
+  padding: 10px; /* Remove default margin */
+  background-color: #b0c23e;
+  border-radius: 10px;
+  color: #fff;
 }
 
 .follow-text {
-  margin-right: 10px; /* Adjust the spacing between the text and icons */
+  margin-right: 20px; /* Adjust the spacing between the text and icons */
   margin-top: 0; /* Remove top margin */
   margin-bottom: 0; /* Remove bottom margin */
-  line-height: 1; /* Adjust line-height to remove*/
+  line-height: 1.6; /* Adjust line-height to remove*/
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
 }
 
 .es-p10r {
   padding-right: 10px; /* Adjust the spacing between the icons */
+}
+/* Override the styles for circular icons */
+.circular-icon {
+  border-radius: 50%; /* Make the image circular */
+  width: 64px;
+  border: none;
 }
 </style>
 

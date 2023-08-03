@@ -14,14 +14,19 @@
 
         <!-- Mission Statement -->
         <div class="mission">
-         <h2>Mission Statement</h2>
+         <h2 class="green-heading">Mission</h2>
          <p>
-          Our mission is to make every child a champion through our Experiental Learning Methodology.
+          <h1>"Children are the world's most valuable resource and its best hope for the future." </h1>
+          Our mission is to empower every child to become a champion through our innovative Experiential Learning Methodology. 
           <br>
-          We help students to learn,practice and strengthen their skills through scientifically proven concepts in our Tiny Habits model.
+          We are committed to creating an environment where students can effectively learn, practice, and enhance their skills by using scientifically proven concepts within our Tiny Habits model.
+          
           <br> 
-          We train students in simple activities that will lead to their holistic growth and development. 
-          <br>
+          By engaging in simple yet impactful activities, we aim to facilitate holistic growth and development in every student."
+          
+         </p>
+         <h2 class="green-heading"> Our Activities </h2>
+         <p>
           Here are some of our recommended activities:
           <ul>
           <li>5AM Club Braingym</li>
@@ -69,30 +74,39 @@
 /* Custom styles */
 .banner-img{
   width: 100%;
-}
-
-.mission h2,
-.youtube-link h2,
-.facebook-link h2
-
-.mission p,
-.youtube-link a,
-.facebook-link a {
-  font-size: 16px;
-  line-height: 1.6;
-  margin: 0; /* Remove the default margin */
-  padding: 0; /* Remove the default padding */
+} 
+.green-heading {
+  background-color: #b0c23e;
+  border-radius: 10px;
+  padding: 8px 16px;
+  font-family: 'Lato', sans-serif;
+  font-size: 34px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 16px;
 }
 
   h2{
-    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    font-size: 34px;
     font-weight: bold;
-    margin-bottom: 16px;
+    margin-bottom: 0;
+    color: #4a9475;
+    padding: 0;
   }
   p{
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.6;
   }
+  .mission h1{
+    font-size: 20px;
+    color: black; /* You can customize the color for each class if needed */
+    font-weight: bold;
+}
+
+  .content {
+  background-color: #b0f5d3;
+}
 </style>
 
 
